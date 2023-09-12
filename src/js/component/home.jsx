@@ -25,24 +25,30 @@ const Home = () => {
 						src={image1}
 						title="Cutest Family"
 						description="The family group is called a herd. A herd is made of all the mother elephants and their babies. There might be six to 12 members in a family. Female elephants stay in the herd forever. Male elephants leave between the ages of 7 and 12."
-						btnText="More facts"/>
+						btnText="More facts"
+						url="https://www.wwf.org.uk/learn/fascinating-facts/elephants"
+						/>
+					
 					<Card 
 						src={image2}
 						title="Baby Giants"
 						description="A baby elephant is called a calf and can weigh around 200 lbs (91 kg) and stand about 3 feet (1 m) tall. They can't see very well when they are born, but much like human babies, they can recognise their mothers by touch, scent, and sound."
 						btnText="More facts"
+						url="https://www.natgeokids.com/uk/discover/animals/general-animals/elephant-facts/"
 					/>
 					<Card 
 						src={image3}
 						title="Never Alone"
 						description="Did you know that baby elephants suck their trunks for comfort? These tiny giants don’t just do this to soothe themselves, though. It also helps them strengthen their trunk muscles and gain better control over the appendage."
 						btnText="More facts"
+						url="https://www.worldwildlife.org/stories/what-s-the-difference-between-asian-and-african-elephants-and-10-other-elephant-facts"
 					/>
 					<Card 
 						src={image4}
 						title="All you can Eat"
 						description="Elephants eat grasses, leaves, shrubs, fruits and roots depending on the season and their habitat. They need to eat up to 150kg of food per day, so much that they can spend up to three-quarters of their day just eating. "
 						btnText="More facts"
+						url="https://www.treehugger.com/facts-change-way-see-elephants-4869315"
 					/>
 				</div>				
 			</div>

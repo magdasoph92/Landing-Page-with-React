@@ -13,7 +13,7 @@ const Card = (props) => {
                         <p className="card-text">{props.description}</p>
                     </div>
                     <div className="col card-footer">
-                        <a href="https://www.wwf.org.uk/learn/fascinating-facts/elephants" target="_blank" className="btn btn-primary">{props.btnText}</a>
+                        <a href={props.url} target="_blank" className="btn btn-primary">{props.btnText}</a>
                     </div>
                 </div>
             </div>
@@ -21,10 +21,6 @@ const Card = (props) => {
     );
 }
 
-Card.propTypes = {
-    title: PropTypes.string,
-    description: PropTypes.string,
-    btnText: PropTypes.string
-}
+
 
 export default Card;
